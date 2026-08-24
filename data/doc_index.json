@@ -1,0 +1,149 @@
+{
+  "snapshot_source": "SOURCE_REGISTRY",
+  "chunks": [
+    {
+      "doc_id": "support_policy_v3",
+      "filename": "01_Support_Policy_v3_CURRENT.pdf",
+      "title": "Support Policy v3 (CURRENT)",
+      "tier": 80,
+      "status": "CURRENT",
+      "effective": "2026-05-01",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 0,
+      "text": "ParcelPilot\nSupport\nPolicy\nv3\nStatus:\nCURRENT\nEffective:\n1\nMay\n2026\nSupersedes:\nSupport\nPolicy\nv2\n1.\nScope\nand\nsource\nprecedence\nThis\npolicy\ndefines\ndefault\nsupport\nseverity\nand\nresponse\ntargets.\nA\nsigned\ncustomer\nagreement\nmay\noverride\nthese\ndefaults.\nWhen\nsources\nconflict,\nuse\nthe\nsigned\ncustomer\nagreement\nfirst,\nthen\nthe\ncurrent\nsupport\npolicy,\nthen\ncurrent\nproduct\ndocumentation.\nHistorical\ntickets\nand\ninternal\nnotes\nare\ncontext\nonly\nand\nmay\ncontain\nincorrect\npast\nguidance.\n2.\nSeverity\ndefinitions\n●\nP1\n-\nCritical:\nComplete\nproduction\noutage\npreventing\nall\nshipment\ncreation\nfor\na\ncustomer,\nconfirmed\nsecurity\nincident\nor\nsuspected\ncredential\nexposure,\nor\nanother\nevent\ncausing\nimmediate"
+    },
+    {
+      "doc_id": "support_policy_v3",
+      "filename": "01_Support_Policy_v3_CURRENT.pdf",
+      "title": "Support Policy v3 (CURRENT)",
+      "tier": 80,
+      "status": "CURRENT",
+      "effective": "2026-05-01",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 1,
+      "text": "material\nbusiness\nrisk\nwith\nno\nworkaround.\n●\nP2\n-\nHigh:\nMajor\nfeature\nunavailable\nor\nmaterially\ndegraded\nfor\na\ncustomer,\nbut\ncore\noperations\nremain\npossible\nor\na\nworkaround\nexists.\n●\nP3\n-\nNormal:\nMinor\ndefect,\nhow-to\nquestion,\nconfiguration\nrequest,\nor\nissue\nwith\nlimited\noperational\nimpact.\n3.\nDefault\nfirst-response\ntargets\nPlan\nP1\nP2\nP3\nEnterprise\n30\nminutes,\n24x7\n2\nhours\n1\nbusiness\nday\nGrowth\n2\nbusiness\nhours\n4\nbusiness\nhours\n2\nbusiness\ndays\nStandard\n4\nbusiness\nhours\n1\nbusiness\nday\n2\nbusiness\ndays\n4.\nEscalation\nP1\nincidents\nshould\nbe\nescalated\nimmediately.\nIf\na\nresponse\ntarget\nis\nalready\nbreached,\nthe\nagent\nshould\nclearly\nstate\nthe\nbreach\nand\nrecommend\nescalation\nrather\nthan\nhiding"
+    },
+    {
+      "doc_id": "support_policy_v3",
+      "filename": "01_Support_Policy_v3_CURRENT.pdf",
+      "title": "Support Policy v3 (CURRENT)",
+      "tier": 80,
+      "status": "CURRENT",
+      "effective": "2026-05-01",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 2,
+      "text": "uncertainty."
+    },
+    {
+      "doc_id": "support_policy_v2",
+      "filename": "02_Support_Policy_v2_DEPRECATED.pdf",
+      "title": "Support Policy v2 (DEPRECATED)",
+      "tier": 10,
+      "status": "DEPRECATED",
+      "effective": "2025-01-01",
+      "governs_account": null,
+      "usable": false,
+      "chunk_index": 0,
+      "text": "ParcelPilot\nSupport\nPolicy\nv2\nStatus:\nDEPRECATED\n-\nDO\nNOT\nUSE\nFOR\nCURRENT\nREQUESTS\nEffective:\n1\nJanuary\n2025\nSuperseded\nby:\nSupport\nPolicy\nv3\neffective\n1\nMay\n2026\nSeverity\nand\nresponse\ntargets\nP1\ncovers\ncomplete\nproduction\noutages\nand\nsevere\nsecurity\nincidents.\nP2\ncovers\nmajor\nfeature\ndegradation.\nP3\ncovers\nminor\nissues\nand\nquestions.\nPlan\nP1\nP2\nP3\nEnterprise\n1\nhour\n4\nhours\n2\nbusiness\ndays\nGrowth\n4\nbusiness\nhours\n1\nbusiness\nday\n3\nbusiness\ndays\nStandard\n8\nbusiness\nhours\n2\nbusiness\ndays\n3\nbusiness\ndays\nNote:\nThis\nfile\nis\nintentionally\nretained\nfor\nhistorical\nreference\nand\nmust\nnot\nbe\nused\nas\ncurrent\npolicy."
+    },
+    {
+      "doc_id": "cancellation_sop_v4",
+      "filename": "03_Cancellation_and_Service_Credit_SOP_v4.pdf",
+      "title": "Cancellation & Service Credit SOP v4 (CURRENT)",
+      "tier": 80,
+      "status": "CURRENT",
+      "effective": "2026-06-15",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 0,
+      "text": "ParcelPilot\nCancellation\n&\nService\nCredit\nSOP\nv4\nStatus:\nCURRENT\nEffective:\n15\nJune\n2026\n1.\nOrder\ncancellation\n●\nDRAFT:\nMay\nbe\ncancelled\nwith\nno\nfee.\n●\nBOOKED,\nnot\nyet\nPICKED_UP:\nMay\nbe\ncancelled.\nNo\nfee\nwithin\n30\nminutes\nof\nbooking.\nAfter\n30\nminutes,\ncharge\nINR\n250\nunless\na\ncustomer\nagreement\nexplicitly\nwaives\nthe\ncancellation\nfee.\n●\nPICKED_UP:\nDo\nnot\ncancel.\nUse\nthe\nreturn-to-origin\nworkflow\nif\nthe\ncustomer\nwants\nthe\nparcel\nreturned.\n●\nDELIVERED:\nCannot\nbe\ncancelled.\n2.\nFailed-pickup\nservice\ncredits\nUnder\nthe\ndefault\npolicy,\na\ncustomer\nis\neligible\nfor\na\nservice\ncredit\nwhen\nthe\npickup\nis\nmore\nthan\n2\nhours\npast\nthe\nend\nof\nthe\nscheduled\npickup\nwindow,\nthe\ncarrier\nis\nat\nfault,\nand\nthere\nis\nno"
+    },
+    {
+      "doc_id": "cancellation_sop_v4",
+      "filename": "03_Cancellation_and_Service_Credit_SOP_v4.pdf",
+      "title": "Cancellation & Service Credit SOP v4 (CURRENT)",
+      "tier": 80,
+      "status": "CURRENT",
+      "effective": "2026-06-15",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 1,
+      "text": "customer-caused\nissue.\nThe\ndefault\ncredit\nis\nthe\nlower\nof\nINR\n500\nor\n10%\nof\nthe\nshipment\nfee.\nA\nsigned\ncustomer\nagreement\nmay\nreplace\nthe\ndefault\ndelay\nthreshold,\ncredit\namount,\nor\ncap.\n3.\nApproval\nand\nuncertainty\n●\nAny\nindividual\ncredit\nabove\nINR\n1,000\nrequires\nmanager\napproval.\n●\nDo\nnot\npromise\na\ncredit\nwhen\ncarrier\nfault,\npickup\ntiming,\nor\ncustomer\nfault\nis\nunknown.\n●\nWhen\ndata\nconflicts,\nidentify\nthe\nconflict\nand\nrequest\nverification\nbefore\na\nstate-changing\naction."
+    },
+    {
+      "doc_id": "product_ops_guide",
+      "filename": "04_Product_Operations_Guide_and_Known_Issues.pdf",
+      "title": "Product Operations Guide & Known Issues (CURRENT)",
+      "tier": 60,
+      "status": "CURRENT",
+      "effective": "2026-08-14",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 0,
+      "text": "ParcelPilot\nProduct\nOperations\nGuide\nStatus:\nCURRENT\nUpdated:\n14\nAugust\n2026\n1.\nPlan\ncapabilities\n●\nBulk\nUpload:\nAvailable\non\nGrowth\nand\nEnterprise.\nSupported\nfile\nsize\nis\nup\nto\n5,000\nrows\nper\nCSV.\n●\nStandard:\nBulk\nUpload\nis\nnot\nincluded.\n●\nShipment\nstatus:\nBOOKED\nmeans\nthe\nshipment\nis\ncreated\nbut\nParcelPilot\nhas\nnot\nyet\nreceived\na\npickup\nconfirmation.\nPICKED_UP\nmeans\ncarrier\npickup\nhas\nbeen\nconfirmed.\n2.\nCurrent\nknown\nissues\nKI-208\n-\nBulk\nUpload\nfailures\non\nlarge\nCSVs\nOpened:\n10\nAugust\n2026\nStatus:\nInvestigating\nSome\nGrowth\nand\nEnterprise\ncustomers\nexperience\nintermittent\nfailures\non\nCSV\nuploads\nabove\napproximately\n3,000\nrows,\neven\nthough\nthe\nsupported\nproduct\nlimit\nremains\n5,000\nrows."
+    },
+    {
+      "doc_id": "product_ops_guide",
+      "filename": "04_Product_Operations_Guide_and_Known_Issues.pdf",
+      "title": "Product Operations Guide & Known Issues (CURRENT)",
+      "tier": 60,
+      "status": "CURRENT",
+      "effective": "2026-08-14",
+      "governs_account": null,
+      "usable": true,
+      "chunk_index": 1,
+      "text": "Workaround:\nsplit\nthe\nupload\ninto\nfiles\nbelow\n3,000\nrows.\nIndividual\nshipment\ncreation\nis\nunaffected.\nKI-211\n-\nSwiftShip\npickup\nwebhook\ndelay\nOpened:\n12\nAugust\n2026\nStatus:\nMonitoring\nSwiftShip\npickup\nconfirmation\nwebhooks\ncan\narrive\nup\nto\n20\nminutes\nlate.\nA\nparcel\nmay\nphysically\nbe\ncollected\nwhile\nParcelPilot\nstill\nshows\nBOOKED.\nBefore\ntelling\na\ncustomer\nthat\na\npickup\ndid\nnot\noccur,\nverify\nthe\ncarrier\nstatus\nor\nwait\nthrough\nthe\nknown\ndelay\nwindow.\n3.\nResolved\nissue\nKI-176\n-\nAddress\nvalidation:\nResolved\n18\nJuly\n2026.\nDo\nnot\nuse\nthis\nresolved\nissue\nto\nexplain\nnew\nincidents\nunless\nevidence\nspecifically\nmatches\nit."
+    },
+    {
+      "doc_id": "northstar_agreement",
+      "filename": "05_Northstar_Logistics_Enterprise_Agreement.pdf",
+      "title": "Northstar Logistics Enterprise Agreement",
+      "tier": 100,
+      "status": "ACTIVE",
+      "effective": "2026-01-01 to 2026-12-31",
+      "governs_account": "ACCT-001",
+      "usable": true,
+      "chunk_index": 0,
+      "text": "ParcelPilot\n-\nNorthstar\nLogistics\nEnterprise\nAgreement\nAccount:\nACCT-001\nCustomer:\nNorthstar\nLogistics\nTerm:\n1\nJanuary\n2026\nto\n31\nDecember\n2026\nStatus:\nACTIVE\n1.\nSupport\nterms\nFor\nNorthstar\nLogistics,\nthe\nfollowing\nfirst-response\ntargets\nreplace\nParcelPilot's\nstandard\nsupport-policy\ntargets:\n●\nP1:\n15\nminutes,\n24x7\n●\nP2:\n1\nhour\n●\nP3:\n8\nbusiness\nhours\n2.\nShipment\ncancellation\nNorthstar\nmay\ncancel\nany\nBOOKED\nshipment\nbefore\npickup\nwith\nno\ncancellation\nfee,\nregardless\nof\nhow\nlong\nago\nthe\nshipment\nwas\nbooked.\nOnce\na\nshipment\nis\nPICKED_UP,\nthe\nstandard\nreturn-to-origin\nprocess\napplies.\n3.\nService\ncredits\nMonthly\naggregate\nservice\ncredits\nare\ncapped\nat\nINR\n5,000.\nUnless\nthis\nagreement\nstates"
+    },
+    {
+      "doc_id": "northstar_agreement",
+      "filename": "05_Northstar_Logistics_Enterprise_Agreement.pdf",
+      "title": "Northstar Logistics Enterprise Agreement",
+      "tier": 100,
+      "status": "ACTIVE",
+      "effective": "2026-01-01 to 2026-12-31",
+      "governs_account": "ACCT-001",
+      "usable": true,
+      "chunk_index": 1,
+      "text": "otherwise,\nthe\ncurrent\nParcelPilot\nservice-credit\nSOP\napplies.\n4.\nAccount\ncontact\nDedicated\nCSM:\nPriya\nMehta."
+    },
+    {
+      "doc_id": "lumenworks_agreement",
+      "filename": "06_LumenWorks_Service_Agreement.pdf",
+      "title": "LumenWorks Service Agreement",
+      "tier": 100,
+      "status": "ACTIVE",
+      "effective": "2026-03-01 to 2027-02-28",
+      "governs_account": "ACCT-002",
+      "usable": true,
+      "chunk_index": 0,
+      "text": "ParcelPilot\n-\nLumenWorks\nService\nAgreement\nAccount:\nACCT-002\nCustomer:\nLumenWorks\nPlan:\nGrowth\nTerm:\n1\nMarch\n2026\nto\n28\nFebruary\n2027\nStatus:\nACTIVE\n1.\nSupport\nterms\n●\nP1:\n2\nbusiness\nhours\n●\nP2:\n4\nbusiness\nhours\n●\nP3:\n2\nbusiness\ndays\n●\nNo\nweekend\nor\nafter-hours\nsupport\ncoverage.\n2.\nCancellation\nterms\nNo\nspecial\ncancellation-fee\nwaiver\napplies.\nUse\nthe\ncurrent\nParcelPilot\nCancellation\n&\nService\nCredit\nSOP.\n3.\nFailed-pickup\ncredits\nIf\na\npickup\nis\nmore\nthan\n4\nhours\npast\nthe\nend\nof\nthe\nscheduled\npickup\nwindow,\nthe\ncarrier\nis\nat\nfault,\nand\nthe\ncustomer\nis\nnot\nat\nfault,\nLumenWorks\nreceives\na\nfixed\nINR\n300\nservice\ncredit.\nThis\nclause\nreplaces\nthe\ndefault\nfailed-pickup\ncredit\namount\nand\ntiming"
+    },
+    {
+      "doc_id": "lumenworks_agreement",
+      "filename": "06_LumenWorks_Service_Agreement.pdf",
+      "title": "LumenWorks Service Agreement",
+      "tier": 100,
+      "status": "ACTIVE",
+      "effective": "2026-03-01 to 2027-02-28",
+      "governs_account": "ACCT-002",
+      "usable": true,
+      "chunk_index": 1,
+      "text": "threshold\nin\nthe\nSOP."
+    }
+  ]
+}
