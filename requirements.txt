@@ -1,0 +1,7 @@
+# ParcelPilot Support Agent — runtime dependencies
+openai>=1.40          # agent LLM client, pointed at xAI (OpenAI-compatible)
+streamlit>=1.36       # chat UI + ops dashboard
+openpyxl>=3.1         # read the .xlsx data pack (no pandas needed for this small set)
+pypdf>=4.0            # parse the supplied policy/contract PDFs
+python-dotenv>=1.0    # load XAI_API_KEY from .env
+pytest>=8.0           # ground-truth unit tests + eval harness
