@@ -64,6 +64,17 @@ The short version:
 * **Time is the dataset snapshot** (2026-08-16 11:00 IST from the workbook README), never
   the real clock.
 
+## Notes
+
+* [Architecture note](docs/ARCHITECTURE_NOTE.md) covers agent and tool design, how
+  documents and structured data are handled, how source conflicts are resolved, and the
+  trade-offs.
+* [Product note](docs/PRODUCT_NOTE.md) covers the extra problem I picked, what I'd build
+  next, what I left out, and the metric I'd judge this on.
+* [AI tool usage](docs/AI_TOOL_USAGE.md) covers which AI tools I used and how.
+* [Data analysis](docs/ANALYSIS.md) is the ground truth I worked out from the pack by
+  hand. The tests use it as the source for every expected number.
+
 ## Layout
 
 ```
