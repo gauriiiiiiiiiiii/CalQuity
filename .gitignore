@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# App state (mock action store is regenerated at runtime)
+data/actions_store.json
+
+# The assessment brief itself is CalQuity's document, not part of this project
+CalQuity*.pdf
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
