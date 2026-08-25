@@ -1,23 +1,33 @@
 # AI Tool Usage
 
-I used Claude Code as a coding assistant while building this.
+I used Claude Code while building this, and I drove it rather than took its output on faith.
 
-Where it helped:
+## The decisions were mine
 
-* Reading the six PDFs and the workbook and writing up the ground truth in `ANALYSIS.md`:
-  the correct answer and governing source for each order and ticket, and the list of
-  planted traps (the deprecated policy, the contract overrides, the wrong historical
-  tickets, the SwiftShip webhook delay, the snapshot time).
-* Drafting the module scaffolding (ingest, retrieval, data layer and calculators, the
-  tool layer, the agent loop, detection, and the Streamlit UI) and the test and eval
-  harnesses.
-* Writing and running the tests until they were green, and boot-testing the app.
+* One agent with two roles instead of two apps.
+* Proactive detection as the extra problem.
+* Access control enforced in the data layer, not the prompt.
+* Arithmetic kept in tested Python, not the model.
+* A confirmation gate the agent cannot bypass.
 
-The product and technical calls were mine: one agent with two roles, choosing proactive
-detection as the extra problem, enforcing access in the data layer, keeping the
-arithmetic in tested Python, and requiring confirmation before actions. I checked the
-generated answers against the actual source documents rather than trusting them.
+## What I used it for
 
-At runtime the agent itself runs on Groq (`openai/gpt-oss-120b`) through the
-OpenAI-compatible API. The client detects the provider from the key prefix, so switching
-to xAI Grok or another compatible host is a one-line change.
+* Reading the six PDFs and the workbook into the ground truth in `ANALYSIS.md`.
+* Drafting the modules.
+* Writing the test and eval harnesses.
+
+## How I checked it
+
+* I verified every fee, credit, SLA target and citation in `ANALYSIS.md` against the source
+  documents myself.
+* The 19 unit tests pin those numbers to values I derived from the documents, so a
+  plausible-sounding wrong answer fails the build instead of shipping.
+* The 6 golden cases do the same for the agent's reasoning over the planted traps.
+* Two of my own eval assertions turned out to be wrong before the agent did. Finding that
+  took reading the data, not prompting.
+
+## At runtime
+
+The agent runs on Groq (`openai/gpt-oss-120b`) over the OpenAI-compatible API. The client
+detects the provider from the key prefix, so moving to xAI Grok or another host is a config
+change.
