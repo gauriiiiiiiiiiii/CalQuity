@@ -5,6 +5,7 @@ state-changing action needs a confirmation click. Ops also gets the Radar tab.
 """
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -12,6 +13,15 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
+
+# Hosted deployments supply config through st.secrets, local runs through .env. Mirror
+# secrets into the environment before core.config reads them, so one code path covers both.
+try:
+    for _key in ("LLM_API_KEY", "LLM_MODEL", "LLM_BASE_URL"):
+        if _key in st.secrets and not os.getenv(_key):
+            os.environ[_key] = str(st.secrets[_key])
+except Exception:  # no secrets file locally, which is fine
+    pass
 
 from core import agent, config
 from core.session import Role, Session
